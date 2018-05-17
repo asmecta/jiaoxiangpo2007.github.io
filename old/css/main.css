@@ -1,0 +1,61 @@
+/*Loading CSS*/
+body{
+    background-color: #f2f2f2;
+    font-family: 'Lato',sans-serif;
+    font-weight: 300;
+    color: #555555;
+}
+h1{
+    font-size: 40px;
+}
+.navbar-default{
+    background-color: #3498db;
+    border-color: transparent;
+    color: white;
+}
+.navbar-default .navbar-brand{
+    color: white;
+}
+.navbar-default .navbar-nav > li > a{
+    color: white;
+}
+#headerwrap{
+    background-color: #3498db;
+    margin-top: -20px;
+    padding-top: 80px;
+    background-image:url("http://shipairlift.com/img/airlift-bg.png");
+}
+#headerwrap h1{
+    color: white;
+    margin-top: 15px;
+    font-weight: 300px;
+    letter-spacing: 1px;
+}
+.grow{
+    transition:all .2s ease-in-out;
+}
+.grow:hover{
+    transform: scale(1.1);
+}
+.centered{
+    text-align: center;
+}
+.mt{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+hr{
+    display: block;
+    height: 1px;
+    border:0;
+    border-top:1px solid #ccc;
+    margin: 1em 0;
+    padding-top: 0;
+}
+.btn.btn-danger{
+    color: #fff;
+    background-color: #c02121;
+}
+div.pull-right .btn{
+    line-height: 40px;
+}

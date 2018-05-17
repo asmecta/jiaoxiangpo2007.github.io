@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="js/vue.js" type="application/javascript"></script>
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <!--<script src="js/jquery.js"></script>-->
+    <!--<script src="js/bootstrap.js"></script>-->
+</head>
+<body>
+<div class="navbar navbar-default">
+    <div class="container">
+        <span style="font-family: 'Bauhaus 93';font-size: 32px;">aSmecta</span>
+    </div>
+
+</div>
+<div id="app" class="container row">
+    <div class="col-xs-12">
+        <input v-model="newTodo" v-on:keyup.enter="addTodo">
+        <button v-on:click="addTodo">add</button>
+    </div>
+
+    <div class="col-xs-12" style="padding-top: 15px">
+        <ul class="nav navbar-nav row" >
+            <li v-for="todo in todos">
+                <span>{{todo.text}}</span>
+                <button v-on:click="removeTodo($index)">x</button>
+            </li>
+        </ul>
+    </div>
+</div>
+<script>
+    new Vue({
+        el:'#app',
+        data:{
+            newTodo:'',
+            todos:[
+                {text:'Add some todos'},{text:'New work'}
+            ]
+            },
+        methods:{
+                addTodo:function () {
+                    var text= this.newTodo.trim()
+                    if(text){
+                        this.todos.push({text:text})
+                        this.newTodo=''
+                    }
+                },
+                removeTodo:function (index) {
+                    this.todos.splice(index,1)
+                }
+        }
+    })
+</script>
+</body>
+</html>

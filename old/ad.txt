@@ -1,0 +1,83 @@
+﻿[Adblock Plus 2.0]
+! Version: v1.0
+! Title: Feets's Rule
+! Last modified: 24 Aug 2015 20:26 UTC
+! Expires: 1 days
+! Homepage: http://www.asmecta.com/
+!
+! Please report any unblocked obtrusive anti adblock messages or problems
+! in the forums (https://forums.lanik.us/) or via e-mail (jiaoxiangpo2007@gmail.com).
+!
+
+!软媒ITHOME
+ithome.com###side_func
+ithome.com###tt1
+ithome.com##.app
+ithome.com###tt5
+ithome.com##.rela-post
+ithome.com##.sfa.block1
+ithome.com##.sfa.block1.joinus
+||img.ithome.com/images/v2.1/qr58.png
+ithome.com###hl-toutiao
+ithome.com##.con-recom
+ithome.com###tt50
+ithome.com##.focus
+ithome.com##.zhuant
+||img.ithome.com/file/js/money/pc/index2.htm
+
+!腾讯QQ
+fashion.qq.com###slide
+my.qzone.qq.com##.data-item
+
+!网易163.com
+mail.ym.163.com##.banner
+www.dataguru.cn##iframe[src="javascript:;"]
+www.eteams.cn###invite-modal
+www.eteams.cn##.invite-modal.modal.fade.form-horizontal.in
+www.eteams.cn##.modal-backdrop.fade.in
+www.gongyeku.com##div[style="margin: 0 0 10px 10px; float: right; width: auto; height: auto; border: 1px solid #ddd;\a     padding: 5px"]
+www.teemlink.com##.content
+www.teemlink.com##.lxb-container.lxb-container-10-2.lxb-container-10-2-right.lxb-pos-right.lxb-vertical.lxb-pos-middle
+
+!优酷
+youku.com###lotteryLeft
+youku.com##.mask
+youku.com##.ykDraw-panel.ykDraw-panel-reward
+
+!推酷
+tuicool.com##.frd_pos
+tuicool.com##.right-link
+tuicool.com##.home-right-ad
+
+!百度
+iqiyi.com##.nan
+iqiyi.com##.nv
+baike.baidu.com##a[style="background:url(http://baike.bdimg.com/cms/static/youshang-wuyifan1.png) 0px 0px no-repeat; width:200px; height:100px; outline:0; font-size:0; text-indent:-999em; display:block;position:absolute;right:0px; bottom:0px;"]
+tieba.baidu.com##.dialogJmodal
+tieba.baidu.com##.umoney-dialog
+
+!shiyanlou.com
+shiyanlou.com##.float-ads
+shiyanlou.com##.ads-modal
+
+easemob.com##.bds-credit-pop
+
+elecfans.com###road-block-bg
+
+!TV
+huomaotv.cn##.hm-player-tool
+huomaotv.cn##a#hmm-banner
+
+caibaojian.com##.niceMessage
+
+!斗鱼
+douyu.com###js-stats-and-actions
+douyu.com##.stats-and-actions
+douyu.com##.r-list.clearfix
+douyu.com##.super-rmd-bg.tggcontrol
+douyu.com##.super-rmd-title.tggcontrol
+douyu.com##.fans-list
+douyu.com###js-fans-rank
+douyu.com##.fans-rank
+douyu.com##.catagory-order-num.fl
+douyu.com##.video-recording
