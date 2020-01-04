@@ -11,6 +11,7 @@
 
 ! cnbeta
 cnbeta.com##.cnbeta-home-blue-wrapper
+cnbeta.com##.cnbeta-headlines
 
 !软媒ITHOME
 ithome.com###side_func
