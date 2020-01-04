@@ -1,13 +1,16 @@
-﻿[Adblock Plus 2.0]
+﻿[Adblock Plus 3.1]
 ! Version: v1.0
 ! Title: Feets's Rule
-! Last modified: 24 Aug 2015 20:26 UTC
+! Last modified: 4 Jan 2020 11:26 UTC
 ! Expires: 1 days
 ! Homepage: http://www.asmecta.com/
 !
 ! Please report any unblocked obtrusive anti adblock messages or problems
-! in the forums (https://forums.lanik.us/) or via e-mail (jiaoxiangpo2007@gmail.com).
+! via e-mail (jiaoxiangpo2007@gmail.com).
 !
+
+! cnbeta
+cnbeta.com##.cnbeta-home-blue-wrapper
 
 !软媒ITHOME
 ithome.com###side_func
@@ -17,13 +20,11 @@ ithome.com###tt5
 ithome.com##.rela-post
 ithome.com##.sfa.block1
 ithome.com##.sfa.block1.joinus
-||img.ithome.com/images/v2.1/qr58.png
 ithome.com###hl-toutiao
 ithome.com##.con-recom
 ithome.com###tt50
 ithome.com##.focus
 ithome.com##.zhuant
-||img.ithome.com/file/js/money/pc/index2.htm
 
 !腾讯QQ
 fashion.qq.com###slide
